@@ -275,8 +275,6 @@ h3.menu-item-title{
 	.display-4{
 		float: right;
 	}
-	
-
 }
 @media(max-width: 767px){
 	.navbar-brand{
@@ -337,17 +335,9 @@ h3.menu-item-title{
   		text-align: center;
   	}
 	#home-tile{
-  		/*position: relative;
-  		margin-bottom: 50px;
-  		overflow: hidden;
-  		box-sizing: border-box;*/
   		position: relative;
-  		
-  		padding-right: 15px;
-  		padding-left: 15px;
   		float: left;
-  		min-height: 1px;
-  		margin:15px;
+  		box-sizing: border-box;
   	}
 
 }
