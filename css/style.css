@@ -279,6 +279,23 @@ h3.menu-item-title{
 
 }
 @media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height:80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+		text-transform: uppercase;
+		font-size: .6em;
+		margin-top:12px; 
+		height:80px;
+	}
+	.navbar-brand p img{
+		height: 20px;
+	}
 	.container .jumbotron{
 		background:url('../images/bottom.jpg') no-repeat;
 		height: 300px;
@@ -319,6 +336,19 @@ h3.menu-item-title{
   	}
   	.menu-item-discription{
   		text-align: center;
+  	}
+	#home-tile{
+  		/*position: relative;
+  		margin-bottom: 50px;
+  		overflow: hidden;
+  		box-sizing: border-box;*/
+  		position: relative;
+  		
+  		padding-right: 15px;
+  		padding-left: 15px;
+  		float: left;
+  		min-height: 1px;
+  		margin:15px;
   	}
 
 }
